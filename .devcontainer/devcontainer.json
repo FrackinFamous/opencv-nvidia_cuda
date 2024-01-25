@@ -3,7 +3,7 @@
 {
     "name": "Ubuntu",
     // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-    "image": "ghcr.io/frackinfamous/opencv_x_nvidia_cuda_w_cdnn",
+    "image": "nvcr.io/nvidia/cuda:11.6.1-cudnn8-devel-ubuntu20.04",
     "features": {
         "ghcr.io/devcontainers/features/common-utils:2": {
             "installZsh": true,
